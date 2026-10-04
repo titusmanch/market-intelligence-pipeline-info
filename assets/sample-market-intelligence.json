@@ -1,0 +1,239 @@
+{
+  "run_id": "20261004T083247Z",
+  "generated_at": "2026-10-04T08:32:47.832220Z",
+  "articles": [
+    {
+      "source": "Example Financial Wire",
+      "title": "Apple and Microsoft discuss higher data-center investment",
+      "url": "https://example.com/markets/data-center-investment",
+      "published_at": "2026-09-25T13:30:00Z",
+      "ingested_at": "2026-09-25T14:00:00Z",
+      "summary": "Apple ($AAPL) and Microsoft (NASDAQ: MSFT) described planned infrastructure spending."
+    },
+    {
+      "source": "Example Macro Desk",
+      "title": "Central bank commentary keeps interest-rate outlook in focus",
+      "url": "https://example.org/macro/rates-outlook",
+      "published_at": "2026-09-25T15:00:00Z",
+      "ingested_at": "2026-09-25T15:08:00Z",
+      "summary": "Officials discussed inflation risks and the path of interest rates."
+    },
+    {
+      "source": "Example Technology Desk",
+      "title": "Nvidia outlines next semiconductor platform",
+      "url": "https://example.net/technology/nvidia-platform",
+      "published_at": "2026-09-26T09:00:00Z",
+      "ingested_at": "2026-09-26T09:03:00Z",
+      "summary": "NVIDIA ($NVDA) presented a product roadmap for data-center customers."
+    },
+    {
+      "source": "Example Markets Daily",
+      "title": "AI investment debate broadens across the technology sector",
+      "url": "https://example.edu/markets/ai-investment",
+      "published_at": "2026-09-26T12:00:00Z",
+      "ingested_at": "2026-09-26T12:10:00Z",
+      "summary": "Analysts compared capital expenditure plans; the word AI is not treated as a ticker."
+    }
+  ],
+  "ticker_analyses": [
+    {
+      "ticker": "AAPL",
+      "indicators": {
+        "ticker": "AAPL",
+        "as_of": "2026-09-25",
+        "close": 200.8776,
+        "sma200": 195.992,
+        "rsi14": 53.5649,
+        "macd": -0.4535,
+        "macd_signal": -0.5472,
+        "macd_histogram": 0.0937,
+        "atr14": 3.5804,
+        "atr_percentile_60d": 0.775,
+        "bollinger_mid": 200.3181,
+        "bollinger_upper": 202.4522,
+        "bollinger_lower": 198.184
+      },
+      "levels": {
+        "method": "atr_bollinger_v1",
+        "stop_loss": 193.7167,
+        "target_1": 200.3181,
+        "target_2": 202.4522,
+        "formula": "stop=max(0.01, close-2*ATR14); target_1=BB20 mid; target_2=BB20 upper"
+      },
+      "assessment": {
+        "ruleset": "descriptive_v1",
+        "trend": "positive",
+        "momentum": "positive",
+        "volatility": "high",
+        "overall": "positive",
+        "trend_reason": "Close is above SMA200.",
+        "momentum_reason": "MACD histogram is positive and RSI14 is between 45 and 70.",
+        "volatility_reason": "ATR14 is at or above its 75th percentile over the latest 60 observations.",
+        "overall_reason": "Trend and momentum rules are both positive."
+      },
+      "related_article_urls": [
+        "https://example.com/markets/data-center-investment"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "indicators": {
+        "ticker": "MSFT",
+        "as_of": "2026-09-25",
+        "close": 435.2723,
+        "sma200": 427.2978,
+        "rsi14": 54.8443,
+        "macd": -0.5779,
+        "macd_signal": -0.7117,
+        "macd_histogram": 0.1338,
+        "atr14": 7.5783,
+        "atr_percentile_60d": 0.7583,
+        "bollinger_mid": 434.378,
+        "bollinger_upper": 437.3538,
+        "bollinger_lower": 431.4023
+      },
+      "levels": {
+        "method": "atr_bollinger_v1",
+        "stop_loss": 420.1157,
+        "target_1": 434.378,
+        "target_2": 437.3538,
+        "formula": "stop=max(0.01, close-2*ATR14); target_1=BB20 mid; target_2=BB20 upper"
+      },
+      "assessment": {
+        "ruleset": "descriptive_v1",
+        "trend": "positive",
+        "momentum": "positive",
+        "volatility": "high",
+        "overall": "positive",
+        "trend_reason": "Close is above SMA200.",
+        "momentum_reason": "MACD histogram is positive and RSI14 is between 45 and 70.",
+        "volatility_reason": "ATR14 is at or above its 75th percentile over the latest 60 observations.",
+        "overall_reason": "Trend and momentum rules are both positive."
+      },
+      "related_article_urls": [
+        "https://example.com/markets/data-center-investment"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "indicators": {
+        "ticker": "NVDA",
+        "as_of": "2026-09-25",
+        "close": 134.0888,
+        "sma200": 132.6784,
+        "rsi14": 46.0503,
+        "macd": -1.2675,
+        "macd_signal": -1.4281,
+        "macd_histogram": 0.1606,
+        "atr14": 2.6829,
+        "atr_percentile_60d": 0.3083,
+        "bollinger_mid": 133.7946,
+        "bollinger_upper": 138.0187,
+        "bollinger_lower": 129.5706
+      },
+      "levels": {
+        "method": "atr_bollinger_v1",
+        "stop_loss": 128.7231,
+        "target_1": 133.7946,
+        "target_2": 138.0187,
+        "formula": "stop=max(0.01, close-2*ATR14); target_1=BB20 mid; target_2=BB20 upper"
+      },
+      "assessment": {
+        "ruleset": "descriptive_v1",
+        "trend": "positive",
+        "momentum": "positive",
+        "volatility": "normal",
+        "overall": "positive",
+        "trend_reason": "Close is above SMA200.",
+        "momentum_reason": "MACD histogram is positive and RSI14 is between 45 and 70.",
+        "volatility_reason": "ATR14 is between its 25th and 75th percentiles over the latest 60 observations.",
+        "overall_reason": "Trend and momentum rules are both positive."
+      },
+      "related_article_urls": [
+        "https://example.net/technology/nvidia-platform"
+      ]
+    }
+  ],
+  "narrative": {
+    "mode": "deterministic_fallback",
+    "output_language": "source-language",
+    "market_overview": "Processed 3 traceable articles and 3 validated tickers.",
+    "news_items": [
+      {
+        "article_url": "https://example.net/technology/nvidia-platform",
+        "category": "sector",
+        "tone": "uncertain",
+        "translated_title": null,
+        "summary": "NVIDIA ($NVDA) presented a product roadmap for data-center customers.",
+        "interpretation": "Review the cited source alongside the calculated market indicators; no causal claim is inferred."
+      },
+      {
+        "article_url": "https://example.edu/markets/ai-investment",
+        "category": "sector",
+        "tone": "uncertain",
+        "translated_title": null,
+        "summary": "Analysts compared capital expenditure plans; the word AI is not treated as a ticker.",
+        "interpretation": "Review the cited source alongside the calculated market indicators; no causal claim is inferred."
+      },
+      {
+        "article_url": "https://example.com/markets/data-center-investment",
+        "category": "other",
+        "tone": "positive",
+        "translated_title": null,
+        "summary": "Apple ($AAPL) and Microsoft (NASDAQ: MSFT) described planned infrastructure spending.",
+        "interpretation": "Review the cited source alongside the calculated market indicators; no causal claim is inferred."
+      }
+    ],
+    "ticker_interpretations": [
+      {
+        "ticker": "AAPL",
+        "explanation": "Overall observation is positive: Trend and momentum rules are both positive. Volatility is high. This is a fixed-rule description, not a forecast."
+      },
+      {
+        "ticker": "MSFT",
+        "explanation": "Overall observation is positive: Trend and momentum rules are both positive. Volatility is high. This is a fixed-rule description, not a forecast."
+      },
+      {
+        "ticker": "NVDA",
+        "explanation": "Overall observation is positive: Trend and momentum rules are both positive. Volatility is normal. This is a fixed-rule description, not a forecast."
+      }
+    ],
+    "generated_at": "2026-10-04T08:32:47.831771Z"
+  },
+  "source_runs": [
+    {
+      "source": "Example Financial Wire",
+      "success": true,
+      "article_count": 2,
+      "error": null
+    },
+    {
+      "source": "Example Macro Desk",
+      "success": true,
+      "article_count": 1,
+      "error": null
+    },
+    {
+      "source": "Example Markets Daily",
+      "success": true,
+      "article_count": 1,
+      "error": null
+    },
+    {
+      "source": "Example Technology Desk",
+      "success": true,
+      "article_count": 1,
+      "error": null
+    }
+  ],
+  "metrics": {
+    "raw_news_count": 5,
+    "deduplicated_news_count": 4,
+    "deduplication_ratio": 0.2,
+    "extracted_ticker_count": 3,
+    "valid_ticker_count": 3,
+    "valid_ticker_ratio": 1.0,
+    "source_success_rate": 1.0,
+    "forward_returns": {}
+  }
+}

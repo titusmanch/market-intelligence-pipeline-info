@@ -1,0 +1,4 @@
+run_id,ticker,as_of,close,sma200,rsi14,macd,macd_signal,macd_histogram,atr14,atr_percentile_60d,bollinger_mid,bollinger_upper,bollinger_lower,trend,momentum,volatility,overall,stop_loss,target_1,target_2
+20261004T083247Z,AAPL,2026-09-25,200.8776,195.992,53.5649,-0.4535,-0.5472,0.0937,3.5804,0.775,200.3181,202.4522,198.184,positive,positive,high,positive,193.7167,200.3181,202.4522
+20261004T083247Z,MSFT,2026-09-25,435.2723,427.2978,54.8443,-0.5779,-0.7117,0.1338,7.5783,0.7583,434.378,437.3538,431.4023,positive,positive,high,positive,420.1157,434.378,437.3538
+20261004T083247Z,NVDA,2026-09-25,134.0888,132.6784,46.0503,-1.2675,-1.4281,0.1606,2.6829,0.3083,133.7946,138.0187,129.5706,positive,positive,normal,positive,128.7231,133.7946,138.0187
