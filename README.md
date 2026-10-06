@@ -1,4 +1,4 @@
-# Market Intelligence Pipeline
+# Financial Market Intelligence & Quantitative Signal Pipeline
 
 An auditable Python pipeline that converts financial-news feeds and market-price
 history into cleaned evidence, deterministic technical indicators and a structured
